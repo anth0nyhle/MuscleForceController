@@ -1,6 +1,6 @@
 % cross-bridge activation, force generation, coupled
 
-function dY = muscleforcefat_ode(t, y, IPI, stim_t)
+function dY = forcefatigue_ode(t, y, IPI, stim_t)
 global tau_c tau_2 tau_fat A_rest K_mrest tau_1rest alpha_A alpha_K_m alpha_tau_1;
 
 SUM = 0;

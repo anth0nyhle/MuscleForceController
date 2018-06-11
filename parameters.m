@@ -10,9 +10,8 @@ tau_fat = 139.74*1000; % in s; time constant characterising the rate of recovery
 A = 3; % in N ms^-1; scaling factor for forceand shortening velocity
 
 A_rest = 1.44; % in N ms^-1
-K_mrest = 0.27;
+K_mrest = 0.27; 
 tau_1rest = 25.92; % in ms
-
 
 alpha_A = -4.15e-7; % in s^-2
 alpha_K_m = 3.09e-8; % in N^-1 s^-1
